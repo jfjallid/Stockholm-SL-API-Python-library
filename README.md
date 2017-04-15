@@ -2,7 +2,10 @@
 A simple Python library to get travel information from SL
 
 
-http://sl.se/api/sv/TravelPlanner/SearchTravelById/"source"/"destination"/"sourceID"/"destinationID"/"time"/"depart_arrive"/sv/null/"via"/"method_of_travel"/"line"/"lines"/"walk_distance"/"changes"/null/"walk_to_other"/null/0/0/null/"realtime"
+http://sl.se/api/sv/TravelPlanner/SearchTravelById/source/destination/sourceID/destinationID/time/depart_arrive/sv/null/via/method_of_travel/line/lines/walk_distance/changes/null/walk_to_other/null/0/0/null/realtime
+
+example url could be:
+http://sl.se/api/sv/TravelPlanner/SearchTravelById/null/null/7061/9521/null/depart/sv/null/9527/2,8,1,4,/null/null/null/null/null/false/null/1/0/null/true
 
 source: Should be set to null but could specify where you are departing from in text form e.g. Huddinge%20Centrum%20(Huddinge) to include that information in returned JSON object
 
